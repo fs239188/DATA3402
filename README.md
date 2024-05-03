@@ -105,7 +105,7 @@ I had no numerical columns with missing values
 ![image](https://github.com/fs239188/DATA3402/assets/143844308/2e562868-ee91-4438-9fb6-53b768d7e7d3)
 
 MACHINE LEARNING
-#I USED RF AND XGB
+#I USED RF AND XGB   (69% and 66% respectively)
 ##Will be using Random Forest
 
 from sklearn.ensemble import RandomForestClassifier
@@ -119,3 +119,6 @@ import xgboost as xgb
 xgb_classifier = xgb.XGBClassifier(random_state=42).fit(xtrain, ytrain)
 ypred=xgb_classifier.predict(xtest)
 print('The Accuracy of XGB classifier is:',accuracy_score(ypred, list(ytest)))
+
+
+![image](https://github.com/fs239188/DATA3402/assets/143844308/d0286740-30fb-4a99-8852-526e66df8e96)
