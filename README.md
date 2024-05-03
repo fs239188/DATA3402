@@ -1,5 +1,11 @@
 # DATA3402
 Overview
+FIYIN OLANIYI
+HORSE HEALTH PREDICTIONS PROJECT
+LINK https://www.kaggle.com/competitions/playground-series-s3e22/data?select=train.csv
+
+Given various medical indicators, I am asked to predict the health outcomes of horses. At the end to print for each id in the test set, predicting the corresponding outcome (Lived, Died or euthanized) using a machine learning model.
+While reading about this dataset, I found that it is synthetic (created by using algorithms and simulations based on generative artificial intelligence technologies) which explains certain inconsistencies.
 
 The Predict Health Outcomes of Horses project is dedicated to a multi-class classification challenge, where the objective is to predict whether a horse can survive based on past medical conditions. The target variable is the horse's outcome, which can fall into different classes.
 
@@ -50,6 +56,10 @@ total_protein: Ratio data representing total protein levels in the blood.
 abdomo_appearance: Nominal data representing abdominal appearance.
 
 abdomo_protein: Ratio data indicating abdominal protein levels.
+
+
+
+
 
 surgical_lesion: Nominal data indicating whether a surgical lesion is present.
 
