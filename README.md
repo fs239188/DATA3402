@@ -57,10 +57,6 @@ abdomo_appearance: Nominal data representing abdominal appearance.
 
 abdomo_protein: Ratio data indicating abdominal protein levels.
 
-
-
-
-
 surgical_lesion: Nominal data indicating whether a surgical lesion is present.
 
 lesion_1, lesion_2, lesion_3: Ratio data related to lesions (some of which may be dropped).
@@ -68,3 +64,36 @@ lesion_1, lesion_2, lesion_3: Ratio data related to lesions (some of which may b
 cp_data: Nominal data indicating the presence of central nervous system disorders.
 
 outcome: Target variable representing the horse's health outcome.
+
+
+**LIBRARIES I USED**
+import numpy as np
+import pandas as pd
+
+# Data Visualization Libraries Import
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Splitting the data
+from sklearn.model_selection import StratifiedShuffleSplit
+
+#Feature Engineering and Encoding
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import LabelBinarizer
+
+#Scaling
+from sklearn.preprocessing import MinMaxScaler
+
+#Machine Learning
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import cross_val_score
+
+import warnings
+warnings.filterwarnings('ignore')
+
+
+**OVERVIEW**
+I had no numerical columns with missing values
+categorical columns with missing values: ['temp_of_extremities', 'peripheral_pulse', 'mucous_membrane', 'capillary_refill_time', 'pain', 'peristalsis', 'abdominal_distention', 'nasogastric_tube', 'nasogastric_reflux', 'rectal_exam_feces', 'abdomen', 'abdomo_appearance']
