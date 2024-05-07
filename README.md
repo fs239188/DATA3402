@@ -90,9 +90,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import cross_val_score
 
-import warnings
-warnings.filterwarnings('ignore')
-
 
 **OVERVIEW**
 I had no numerical columns with missing values
@@ -102,7 +99,7 @@ I had no numerical columns with missing values
 #*DATA VISUALIZATION*
 ![image](https://github.com/fs239188/DATA3402/assets/143844308/056fad76-dd64-42c8-b915-42ef1630a53b)
 ![image](https://github.com/fs239188/DATA3402/assets/143844308/12ae8e0d-7d86-4dd4-8b4e-0f5fbc04e45e)
-![image](https://github.com/fs239188/DATA3402/assets/143844308/2e562868-ee91-4438-9fb6-53b768d7e7d3)
+![image](https://github.com/fs239188/DATA3402/assets/143844308/2e562868-ee91-4438-9fb6-53b768d7e7d3)  
 
 MACHINE LEARNING
 #I USED RF AND XGB   (69% and 66% respectively)
