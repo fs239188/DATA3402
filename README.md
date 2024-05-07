@@ -99,7 +99,7 @@ I had no numerical columns with missing values
 # The categorical columns with missing values: ['temp_of_extremities', 'peripheral_pulse', 'mucous_membrane', 'capillary_refill_time', 'pain', 'peristalsis', 'abdominal_distention', 'nasogastric_tube', 'nasogastric_reflux', 'rectal_exam_feces', 'abdomen', 'abdomo_appearance']
 
 
-#DATA VISUALIZATION
+#*DATA VISUALIZATION*
 ![image](https://github.com/fs239188/DATA3402/assets/143844308/056fad76-dd64-42c8-b915-42ef1630a53b)
 ![image](https://github.com/fs239188/DATA3402/assets/143844308/12ae8e0d-7d86-4dd4-8b4e-0f5fbc04e45e)
 ![image](https://github.com/fs239188/DATA3402/assets/143844308/2e562868-ee91-4438-9fb6-53b768d7e7d3)
